@@ -18,7 +18,9 @@
   "homepage": "https://github.com/purxiz/DatBin#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "core-js": "^3.6.4",
     "express": "^4.17.1",
-    "mongoose": "^5.9.7"
+    "mongoose": "^5.9.7",
+    "pug": "^2.0.4"
   }
 }
