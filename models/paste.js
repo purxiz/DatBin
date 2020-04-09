@@ -3,9 +3,9 @@ var Schema = mongoose.Schema;
 
 var pasteSchema = new Schema({
 
-    id: { type: String, required: [true, 'err-name-missing'], unique: true },
-    text: { type: String, required: [true, 'err-text-missing' ] },
-    language: { type: String, required: false },
+  id: { type: String, required: [true, 'err-name-missing'], unique: true },
+  text: { type: String, required: [true, 'err-text-missing' ], maxlength: 10000 },
+  language: { type: String, required: false },
 },
 {
     timestamps: true
