@@ -5,6 +5,8 @@ body {
 
 header {
 	background: #3b4252;
+	position: sticky;
+	top: 8px;
 }
 
 header h1 {
@@ -16,12 +18,13 @@ header h1 {
 }
 
 textarea {
-	height: 80%;
 	width: 100%;
     outline: none;
 	border: none;
 	resize: none;
-	background: #2e3440;
+	background: 0 0;
 	caret-color: #d8dee9;
 	color: #eceff4;
+	font-family: monospace;
+	spellcheck: false;
 }

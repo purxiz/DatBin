@@ -4,11 +4,12 @@ html
     style
       include ../styles/main.css
   body
-    header
+    header#head
       h1 DatBin
       .floatright
         p Save Button
       .floatright
         p Other Button
-    div#contentwrapper
-      textarea#content
+    textarea(spellcheck='false')#content
+    script
+      include ../js/onload.js
