@@ -7,6 +7,7 @@ var mongoose    = require('mongoose');
 mongoose.connect('mongodb://localhost/DatBin', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+  useCreateIndex: true,
 });      
 
 // call the packages we need
